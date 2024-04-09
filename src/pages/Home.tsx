@@ -35,6 +35,7 @@ const Home: React.FC<IHome> = ({ theme }) => {
     },
     []
   );
+
   return (
     <main className={theme ? 'dark' : ''}>
       <div className="text-gray-100  max-w-screen-xl mx-auto px-4 lg:px-6 flex flex-col items-center py-10">
